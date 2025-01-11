@@ -387,3 +387,35 @@ input::placeholder{
     border: none;
    
 }
+.footer-section {
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+    
+}
+
+.footer-title {
+    font-size:15px ;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+hr{
+    width: 70%;
+    margin-bottom: 15px;
+    color: #D9D9D9;
+}
+
+.social-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   
+}
