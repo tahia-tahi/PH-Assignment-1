@@ -134,3 +134,101 @@ font-family: "Fira Sans", serif;
     
 }
 
+.vision-card-area{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.vision-card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.btn-vision-1{
+    color: white;
+    font-size: 12px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+.vision-card-2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.btn-vision-2{
+    color: white;
+    font-size: 12px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: none;
+
+}
+
+.vision-card-3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 15px;
+    border-radius: 16px;
+}
+
+
+
+.btn-vision-3{
+    color: white;
+    font-size: 10px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: none;
+
+}
+
+
+.blockquote-title{
+    font-size: 13px;
+    font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.blockquote-section-text{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 10px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2px;
+    line-height: 0px;
+    
+
+}
+
+.blockquote-area{
+    background-color: white;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    background-size: 30px 30px;
+    padding: 20px 10px;
+    border-radius: 16px;
+    margin-top: 32px;
+
+}
