@@ -264,3 +264,126 @@ font-family: "Fira Sans", serif;
 .recent-news-blog-right{
     align-items: center;
 }
+.donation-amount-child-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.donation-section-title{
+    font-size: 22px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0E0E0E;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.donation-section-text{
+
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 10px;
+    line-height: 15px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.donation-amount-child{
+    border-radius: 16px;
+    background-color: white;
+    padding: 30px;
+    
+}
+
+
+.donation-amount-child:hover{
+    color: rgba(14, 14, 14, 0.8);
+    background-color:#C6E4D6;
+    border-radius: 16px;
+
+}
+
+.donation-section{
+    margin-top: 60px ;
+}
+
+
+form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+    
+}
+
+input[type = number] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    
+}
+
+
+input[type = button] {
+    margin-top: 15px;
+}
+
+
+.newsletter-section{
+    background-color:#C6E4D6 ;
+    padding: 30px;
+    margin-top: 60px;
+    border-radius: 24px;
+}
+
+.subscription-form{
+    width: 70%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0;
+
+   
+}
+
+input[type=email]
+{
+    width: 70%;
+font-size: 15px;
+padding: 13px 30px;
+border: none;
+border-radius: 8px 0 0 8px;
+outline: none;
+
+  
+}
+input::placeholder{
+    text-align: left;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+
+
+
+.btn-subscribe{
+    color: white;
+    font-size: 12px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #006A50;
+    border-radius: 0 8px 8px 0;
+    padding: 15px 30px;
+    border: none;
+   
+}
